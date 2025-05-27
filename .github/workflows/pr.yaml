@@ -13,3 +13,10 @@ jobs:
    steps:
      - name: welcome steps
        run: echo "Welcome To the GitHub Actions"
+     - name: second step
+       run: echo "The is second step"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job 2 Step 1
+      - run: echo "The is Step 1 of job 2"
